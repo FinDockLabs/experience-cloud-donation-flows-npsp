@@ -1,8 +1,12 @@
 {
   "packageDirectories": [
     {
-      "path": "force-app",
+      "path": "force-app/main/experience-cloud-additional-components",
       "default": true
+    },
+    {
+      "path": "force-app/main/default/flows",
+      "default": false
     }
   ],
   "name": "experience-cloud-flow-templates",
