@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2">
-    <file original="Salesforce" source-language="en_US" target-language="uk" translation-type="metadata" datatype="xml">
+    <file original="Salesforce" source-language="en_US" target-language="TARGET_LANGUAGE_CODE" translation-type="metadata" datatype="xml">
         <body>
         <trans-unit id="CustomLabel.ec_sr_progress_stage_announcement" maxwidth="1000" size-unit="char">
             <source>Step {0} of 3</source>
