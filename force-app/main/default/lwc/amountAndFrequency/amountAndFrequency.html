@@ -63,6 +63,7 @@
         <!-- Custom Amount Input Row -->
         <div class="custom-amount-field">
             <label for={customAmountId} class="slds-assistive-text">{labels.ec_label_other_amount}</label>
+            <span id={currencyDescriptionId} class="slds-assistive-text">{currencyAssistiveText}</span>
             <div class={customAmountRowClass}>
 
                 <template lwc:if={isCurrencyPrefix}>
@@ -78,8 +79,8 @@
                     id={customAmountId}
                     class="custom-amount-input-native"
                     placeholder={labels.ec_label_other_amount}
-                    value={_customAmount}
-                    aria-describedby={customAmountErrorId}
+                    value={customAmountDisplay}
+                    aria-describedby={customAmountDescribedBy}
                     aria-invalid={hasValidationError}
                     oninput={handleCustomAmountInput}
                     onfocus={handleCustomAmountFocus}
