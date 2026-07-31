@@ -234,12 +234,6 @@
                     <stringValue>oneTime</stringValue>
                 </value>
             </inputParameters>
-            <inputParameters>
-                <name>defaultCurrency</name>
-                <value>
-                    <stringValue>EUR</stringValue>
-                </value>
-            </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
