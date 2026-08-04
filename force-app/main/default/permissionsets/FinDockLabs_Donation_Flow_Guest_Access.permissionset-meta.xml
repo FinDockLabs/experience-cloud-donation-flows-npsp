@@ -8,6 +8,6 @@
         <enabled>true</enabled>
         <flow>Donation_Flow</flow>
     </flowAccesses>
-    <label>FinDock Experience Cloud Guest Access</label>
+    <label>FinDockLabs Donation Flow Guest Access</label>
     <description>Guest user access to the Donation_Flow flow and the CurrencyPickerController Apex class. Assign to the site guest user.</description>
 </PermissionSet>
