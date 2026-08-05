@@ -20,10 +20,10 @@ Collect Gift Aid from UK donors
 
 ## Installation
 1. Press the buttons to deploy the repo to the org.
-2. Follow [these instructions](https://help.salesforce.com/s/articleView?id=experience.rss_flow_guestuser.htm&type=5) to set up the guest user access for the flow. Do this for Dontation_Flow.
+2. Assign the **FinDockLabs Donation Flow Guest Access** permission set to your Experience Cloud site guest user.
 3. Go to the donation Flow -> Payment Screen -> Payment Method Selection component
    - configure at least some payment methods
 4. Configure the [payment intent](https://docs.findock.com/docs/july-26/payments/pay-button) (add at least a success and failure URLs and verify the mapping matches your use case).
-6. Activate your flow.
-7. Go to the Experience Cloud Administration -> Preferences -> enable "Allow guest users to access public APIs".
-8. Add the flow to your Experience Cloud site.
+5. Activate your flow.
+6. Go to the Experience Cloud Administration -> Preferences -> enable "Allow guest users to access public APIs".
+7. Add the flow to your Experience Cloud site.
